@@ -36,9 +36,9 @@
 
 5. **Add Environment Variables** (in Render dashboard):
    ```
-   GEMINI_API_KEY=AIzaSyCsaeOy6-pRmq7j6e1qZL3YvO2wQZIDMys
-   YOUTUBE_API_KEY=AIzaSyBUQclfZJAtnGgxYKjXgz6pzOMeesq9DiU
-   RESEND_API_KEY=re_oqz8tuVa_CoTf2W66MLcdHpGzhrDe3cci
+   GEMINI_API_KEY=your_gemini_api_key_here
+   YOUTUBE_API_KEY=your_youtube_api_key_here
+   RESEND_API_KEY=your_resend_api_key_here
    REACT_DASHBOARD_URL=https://your-app.netlify.app (add after React deployment)
    ```
 
@@ -68,11 +68,11 @@ git push -u origin main
 
 Edit `.env` file:
 ```env
-VITE_GEMINI_API_KEY=AIzaSyCsaeOy6-pRmq7j6e1qZL3YvO2wQZIDMys
-VITE_YOUTUBE_API_KEY=AIzaSyBUQclfZJAtnGgxYKjXgz6pzOMeesq9DiU
+VITE_GEMINI_API_KEY=your_gemini_api_key_here
+VITE_YOUTUBE_API_KEY=your_youtube_api_key_here
 VITE_FLASK_URL=https://flask-study-monitoring-xxxx.onrender.com
-VITE_SUPABASE_URL=https://wnzkpnegzjyhymgnzbmk.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InduemtwbmVnemp5aHltZ256Ym1rIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzQzNDg2MDcsImV4cCI6MjA0OTkyNDYwN30.Uc0Vvf0bx5aOeN9vB2cKEGUGO7mZ3uPw-uwXO3XBg7c
+VITE_SUPABASE_URL=your_supabase_url_here
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 ```
 
 ### B. Build React
